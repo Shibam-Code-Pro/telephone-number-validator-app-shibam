@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telephone Number Validator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📞 US Telephone Number Validator</h1>
+            <p>Enter a phone number to validate if it's a valid US format</p>
+        </header>
+        
+        <main>
+            <div class="input-section">
+                <input 
+                    type="text" 
+                    id="user-input" 
+                    placeholder="Enter phone number (e.g., 1 555-555-5555)"
+                    autocomplete="off"
+                >
+                <div class="button-group">
+                    <button id="check-btn" class="btn btn-primary">Check</button>
+                    <button id="clear-btn" class="btn btn-secondary">Clear</button>
+                </div>
+            </div>
+            
+            <div id="results-div" class="results"></div>
+        </main>
+        
+        <footer>
+            <div class="examples">
+                <h3>Valid US Phone Number Formats:</h3>
+                <ul>
+                    <li>1 555-555-5555</li>
+                    <li>1 (555) 555-5555</li>
+                    <li>1(555)555-5555</li>
+                    <li>1 555 555 5555</li>
+                    <li>5555555555</li>
+                    <li>555-555-5555</li>
+                    <li>(555)555-5555</li>
+                </ul>
+                <p><strong>Note:</strong> Area code is required. Country code must be 1 if provided.</p>
+            </div>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
