@@ -17,7 +17,7 @@ A comprehensive US telephone number validator that checks if phone numbers match
 
 ## ✨ Live Demo
 
-🌐 **[View Live Demo](https://your-live-demo-link.com)** *(Update after deployment)*
+🌐 **[View Telephone Number Validator App](https://telephone-number-validator-app-shib.vercel.app)**
 
 ## 🚀 Key Features
 
